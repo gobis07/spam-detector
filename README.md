@@ -31,9 +31,12 @@ streamlit run app.py
 ## 📁 Project structure
 spam-detector/
 │
-├── data/                
-├── models/              
-├── notebooks/           
+├── data/
+|   ├── spam.csv                
+├── models/
+|   ├── spam_model.pkl              
+├── notebooks/
+|   ├── notebook.ipynb           
 ├── src/
 │   ├── preprocess.py
 │   ├── train.py
