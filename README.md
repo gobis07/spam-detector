@@ -29,7 +29,20 @@ streamlit run app.py
 ```
 
 ## 📁 Project structure
-(see above)
+spam-detector/
+│
+├── data/                
+├── models/              
+├── notebooks/           
+├── src/
+│   ├── preprocess.py
+│   ├── train.py
+│   ├── predict.py
+│
+├── app/
+|   |── main.py            
+├── requirements.txt
+├── README.md
 
 ## 👤 Author
 Gloire Bisimwa
