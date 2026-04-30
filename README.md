@@ -4,7 +4,7 @@ This project is a machine learning model that detects whether a message is spam 
 
 ## 📌 Features
 - Text preprocessing (cleaning, tokenization)
-- TF-IDF vectorization
+- CountVectorizer for text vectorization
 - Classification model (Naive Bayes)
 - Evaluation with accuracy and classification report
 
@@ -13,7 +13,7 @@ This project is a machine learning model that detects whether a message is spam 
 - F1-score: 0.95
 
 ## 🧠 Model
-The model is trained using Scikit-learn with TF-IDF features.
+The model is trained using Scikit-learn with CountVectorizer features.
 
 ## 🚀 How to run
 
