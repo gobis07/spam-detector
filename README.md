@@ -49,3 +49,10 @@ spam-detector/
 
 ## 👤 Author
 Gloire Bisimwa
+
+## ⭐ Future Improvements
+
+- Try deep learning (LSTM / Transformers)
+- Improve dataset quality
+- Deploy model as API (FastAPI)
+- Add real-time spam detection app

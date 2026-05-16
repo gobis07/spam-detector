@@ -3,10 +3,10 @@ import joblib
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report,confusion_matrix
 
-data = pd.read_csv("Dataset/spam.csv")
+data = pd.read_csv("Dataset/data-en-hi-de-fr.csv")
 
-x = data['Message']
-y = data['Category']
+x = (data['text']+" "+data['text_hi']+" "+data['text_de']+" "+data['text_fr'])
+y = data['labels']
 
 x_train,x_test,y_train,y_test = train_test_split(x,y, test_size= 0.2,random_state=42)
 model = joblib.load("model/spam_model.pkl")
