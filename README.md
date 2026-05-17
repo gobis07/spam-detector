@@ -1,6 +1,8 @@
 # Spam Detector 🚀
 
-This project is a machine learning model that detects whether a message is spam or not.
+C'est un projet de machine learning qui détecte si un message est un spam ou non.
+J'utilise scikit-learning pour l'entrainement et la vectorization du texte,streamlite pour le frontend,
+fastAPI pour le backend et sqlite3 pour la base de donnée
 
 ## 📌 Features
 
@@ -22,7 +24,8 @@ weighted avg       0.99      0.99      0.99      1115
 
 ## 🧠 Model
 
-The model is trained using Scikit-learn with CountVectorizer features.
+pour l'entrainement j'utilse MultinomialNB de la bibliothèque scikit-learn 
+et pour la vectorization j'utilise CountVectorizer aussi de scikit-learn
 
 ## 🚀 How to run
 
