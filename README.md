@@ -24,7 +24,7 @@ weighted avg       0.99      0.99      0.99      1115
 
 ## 🧠 Model
 
-pour l'entrainement j'utilse MultinomialNB de la bibliothèque scikit-learn 
+pour l'entrainement j'utilse MultinomialNB de la bibliothèque scikit-learn
 et pour la vectorization j'utilise CountVectorizer aussi de scikit-learn
 
 ## 🚀 How to run
