@@ -26,17 +26,15 @@ The model is trained using Scikit-learn with CountVectorizer features.
 
 ## 🚀 How to run
 
-```bash
+bash
 
 pip install -r requirements.txt
 python src/train.py
-```
 
 Or run the app:
 
-```bash
+bash
 streamlit run app.py
-```
 
 ## 📁 Project structure
 
