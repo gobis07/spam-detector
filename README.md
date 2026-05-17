@@ -54,9 +54,12 @@ spam-detector/
 │   ├── predict.py
 │
 ├── app/
-|   |── main.py
+|   |── app.py
+|   ├── api.py
+|   ├── main.py
 ├── requirements.txt
 ├── README.md
+├── message.db
 
 ## 👤 Author
 
